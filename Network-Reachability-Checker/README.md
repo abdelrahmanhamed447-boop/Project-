@@ -105,6 +105,52 @@ The implementation includes:
 - Lowest-cost path calculation
 
 The algorithm evaluates the available routes and determines the path with the lowest total cost.
+import heapq
+
+
+def calculate_ospf_path(graph, start_router, end_router):
+    # قاموس لتخزين أقل تكلفة للوصول لكل راوتر
+    distances = {router: float('infinity') for router in graph}
+    distances[start_router] = 0
+
+    # قائمة انتظار الأولويات (Priority Queue)
+    priority_queue = [(0, start_router)]
+
+    while priority_queue:
+        current_distance, current_router = heapq.heappop(priority_queue)
+
+        # إذا وصلنا للهدف، نتوقف
+        if current_router == end_router:
+            return current_distance
+
+        # البحث في الروابط المجاورة (Neighbors)
+        for neighbor, cost in graph[current_router].items():
+            distance = current_distance + cost
+
+            # إذا وجدنا مساراً بتكلفة أقل، نقوم بتحديثه
+            if distance < distances[neighbor]:
+                distances[neighbor] = distance
+                heapq.heappush(priority_queue, (distance, neighbor))
+
+    return distances[end_router]
+
+
+# تمثيل شبكة (Topology) مكونة من 4 راوترات
+# الأرقام تمثل الـ Cost (مثلاً: سرعة اللينك)
+network_topology = {
+    'Router_A': {'Router_B': 10, 'Router_C': 2},
+    'Router_B': {'Router_D': 5},
+    'Router_C': {'Router_B': 3, 'Router_D': 15},
+    'Router_D': {}
+}
+
+start = 'Router_A'
+destination = 'Router_D'
+
+best_cost = calculate_ospf_path(network_topology, start, destination)
+
+print(f"--- محاكاة بروتوكول OSPF ---")
+print(f"أفضل تكلفة (Cost) من {start} إلى {destination} هي: {best_cost}")
 
 ---
 
