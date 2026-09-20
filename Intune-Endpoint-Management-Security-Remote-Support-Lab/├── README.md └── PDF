@@ -1,0 +1,352 @@
+# Microsoft Intune Endpoint Management, Security & Remote Support Lab
+
+## 📌 Overview
+
+Hands-on Microsoft Intune lab covering Windows and Android device enrollment, endpoint management, application deployment, compliance policies, enrollment restrictions, device configuration, endpoint security, scope tags, Managed Google Play integration, and remote support actions using Microsoft Intune and Microsoft Entra ID.
+
+---
+
+## 📑 Table of Contents
+
+- [Project Objectives](#-project-objectives)
+- [Technologies & Services](#-technologies--services)
+- [Project Workflow](#-project-workflow)
+  - [1. Device Enrollment & Management](#1-device-enrollment--management)
+  - [2. Enrollment Restrictions](#2-enrollment-restrictions)
+  - [3. Scope Tags](#3-scope-tags)
+  - [4. Compliance Policies](#4-compliance-policies)
+  - [5. Endpoint Security](#5-endpoint-security)
+  - [6. Device Configuration](#6-device-configuration)
+  - [7. Application Management](#7-application-management)
+  - [8. Android App Protection](#8-android-app-protection)
+  - [9. Conditional Access](#9-conditional-access)
+  - [10. BitLocker Management](#10-bitlocker-management)
+  - [11. Remote Help & Remote Support](#11-remote-help--remote-support)
+- [Configuration & Implementation](#-configuration--implementation)
+- [Execution & Validation](#-execution--validation)
+- [Skills Demonstrated](#-skills-demonstrated)
+- [Documentation](#-documentation)
+- [Project Structure](#-project-structure)
+- [Project Summary](#-project-summary)
+
+---
+
+## 🎯 Project Objectives
+
+- Configure Microsoft Intune for centralized endpoint management.
+- Configure Windows device enrollment and management.
+- Configure Android device enrollment and management.
+- Configure enrollment restrictions and device limits.
+- Configure Scope Tags for administrative organization.
+- Create and configure compliance policies.
+- Configure device configuration policies.
+- Deploy and manage applications.
+- Integrate Managed Google Play for Android application management.
+- Configure Android App Protection.
+- Configure endpoint security controls.
+- Configure BitLocker management.
+- Configure Conditional Access integration.
+- Configure Remote Help and remote support capabilities.
+- Validate endpoint management and policy application.
+
+---
+
+## 🛠️ Technologies & Services
+
+- Microsoft Intune
+- Microsoft Entra ID
+- Windows Device Enrollment
+- Android Device Enrollment
+- Microsoft Entra ID Device Management
+- Enrollment Restrictions
+- Device Limits
+- Scope Tags
+- Compliance Policies
+- Configuration Policies
+- Application Deployment
+- Managed Google Play
+- Android App Protection
+- Endpoint Security
+- BitLocker
+- Windows Firewall
+- Microsoft Defender
+- TPM
+- Real-Time Protection
+- Conditional Access
+- Remote Help
+- Remote Assistance
+
+---
+
+# 🔄 Project Workflow
+
+## 1. Device Enrollment & Management
+
+Configured Microsoft Intune and Microsoft Entra ID for centralized endpoint management.
+
+Activities included:
+
+- Windows device enrollment
+- Android device enrollment
+- Device registration and management
+- Endpoint monitoring
+- Device management through Microsoft Intune
+
+---
+
+## 2. Enrollment Restrictions
+
+Configured enrollment restrictions to control which devices can enroll into the Intune environment.
+
+Activities included:
+
+- Enrollment restriction configuration
+- Device platform restrictions
+- Device enrollment limits
+- Validation of enrollment behavior
+
+---
+
+## 3. Scope Tags
+
+Configured Scope Tags to organize administrative access and management within Microsoft Intune.
+
+Activities included:
+
+- Scope Tag configuration
+- Administrative organization
+- Resource management
+
+---
+
+## 4. Compliance Policies
+
+Configured compliance policies to evaluate endpoint compliance with organizational requirements.
+
+Activities included:
+
+- Compliance policy creation
+- Device compliance configuration
+- Compliance evaluation
+- Policy validation
+
+---
+
+## 5. Endpoint Security
+
+Configured endpoint security controls for managed Windows devices.
+
+The lab included:
+
+- BitLocker encryption
+- Windows Firewall
+- Microsoft Defender
+- TPM
+- Antivirus
+- Real-Time Protection
+
+These controls were configured and managed through Microsoft Intune.
+
+---
+
+## 6. Device Configuration
+
+Configured device configuration policies to manage endpoint settings centrally.
+
+Activities included:
+
+- Configuration policy creation
+- Device settings management
+- Policy assignment
+- Configuration validation
+
+---
+
+## 7. Application Management
+
+Configured application deployment and management through Microsoft Intune.
+
+Activities included:
+
+- Application deployment
+- Application assignment
+- Application management
+- Deployment validation
+
+---
+
+## 8. Android App Protection
+
+Configured Android application protection capabilities for managed mobile devices.
+
+Activities included:
+
+- Android App Protection configuration
+- Application management
+- Policy assignment
+- Protection policy validation
+
+---
+
+## 9. Conditional Access
+
+Configured Microsoft Entra ID Conditional Access integration with endpoint management.
+
+Activities included:
+
+- Conditional Access configuration
+- Identity-based access controls
+- Device compliance integration
+- Access policy validation
+
+---
+
+## 10. BitLocker Management
+
+Configured BitLocker encryption management through Microsoft Intune.
+
+Activities included:
+
+- BitLocker configuration
+- Encryption policy management
+- Device policy assignment
+- Encryption management validation
+
+---
+
+## 11. Remote Help & Remote Support
+
+Configured and tested Remote Help / Remote Assistance capabilities for endpoint support.
+
+Activities included:
+
+- Remote Help configuration
+- Remote Assistance testing
+- Remote device support
+- Endpoint troubleshooting
+- Remote management validation
+
+---
+
+# ⚙️ Configuration & Implementation
+
+The project used Microsoft Intune together with Microsoft Entra ID to provide centralized endpoint management.
+
+The implementation covered:
+
+- Windows and Android enrollment
+- Device restrictions
+- Scope Tags
+- Compliance policies
+- Configuration policies
+- Application deployment
+- Android App Protection
+- Conditional Access
+- Endpoint security
+- BitLocker management
+- Remote Help
+
+---
+
+# 🧪 Execution & Validation
+
+The lab configuration was validated through practical testing of:
+
+- Windows device enrollment
+- Android device enrollment
+- Enrollment restrictions
+- Device management
+- Compliance policies
+- Configuration policies
+- Application deployment
+- Android application management
+- Endpoint security policies
+- BitLocker configuration
+- Conditional Access
+- Remote Help / Remote Assistance
+
+---
+
+# 🧠 Skills Demonstrated
+
+### Microsoft Intune
+
+- Endpoint Management
+- Windows Device Enrollment
+- Android Device Enrollment
+- Device Configuration
+- Compliance Management
+- Application Deployment
+- Enrollment Restrictions
+- Scope Tags
+- Remote Help
+
+### Microsoft Entra ID
+
+- Device Management
+- Identity Integration
+- Conditional Access
+- Endpoint Access Control
+
+### Endpoint Security
+
+- BitLocker
+- Windows Firewall
+- Microsoft Defender
+- Antivirus
+- TPM
+- Real-Time Protection
+
+### Mobile Device Management
+
+- Android Enterprise
+- Managed Google Play
+- Android App Protection
+- Mobile Application Management
+
+### Endpoint Administration
+
+- Device Enrollment
+- Policy Deployment
+- Compliance Validation
+- Remote Support
+- Endpoint Troubleshooting
+
+---
+
+# 📸 Documentation
+
+The project documentation contains implementation evidence covering:
+
+- Microsoft Intune configuration
+- Microsoft Entra ID integration
+- Windows enrollment
+- Android enrollment
+- Enrollment Restrictions
+- Scope Tags
+- Compliance Policies
+- Configuration Policies
+- Application Deployment
+- Managed Google Play
+- Android App Protection
+- Endpoint Security
+- BitLocker
+- Conditional Access
+- Remote Help / Remote Assistance
+
+---
+
+# 📁 Project Structure
+
+```text
+Microsoft-Intune-Endpoint-Management-Security-Remote-Support-Lab/
+│
+├── README.md
+│
+└── Microsoft-Intune-Endpoint-Management-Security-Remote-Support-Lab.pdf
+
+⭐ Project Summary
+
+This project demonstrates practical experience with Microsoft Intune endpoint management and Microsoft Entra ID, covering Windows and Android device enrollment, device configuration, compliance management, application deployment, endpoint security, BitLocker, Conditional Access, Managed Google Play, Android App Protection, and Remote Help.
+
+The lab focuses on centralized endpoint administration, policy deployment, compliance management, security configuration, application management, and remote endpoint support.
